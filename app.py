@@ -159,8 +159,8 @@ def main():
                     finger_gesture_history).most_common()
 
                 # Drawing part
-                # debug_image = draw_bounding_rect(use_brect, debug_image, brect)
-                # debug_image = draw_landmarks(debug_image, landmark_list)
+                debug_image = draw_bounding_rect(use_brect, debug_image, brect)
+                debug_image = draw_landmarks(debug_image, landmark_list)
                 # debug_image = draw_info_text(
                 #     debug_image,
                 #     brect,
